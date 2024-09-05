@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman web</title>
+    <style>
+        body {
+            background-image: url('colorful.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh;
+        }
+        h1 {
+            text-align: center;
+            color: orange;
+        }
+        .content {
+            margin: 20px;
+            padding: 20px;
+            background-color: lightblue;
+            border: 1px solid #ccc;
+            position: relative;
+        }
+        .top-line {
+            border-top: 2px solid blue;
+        }
+        .bottom-line {
+            border-bottom: 2px solid red;
+            margin-bottom: 30px;
+        }
+        .image-container {
+            position: relative;
+            display: inline-block;
+            padding-top: 10px;
+        }
+        .image-container::before {
+            content: '';
+            display: block;
+            width: 200px; 
+            height: 2px;
+            background-color: blue;
+            position: absolute;
+            top: 0;
+            left: -40px; 
+        }
+        .image {
+            border: 5px solid black;
+            width: 150px;
+            display: block;
+        }
+        .container {
+            text-align: right;
+            margin-right: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Halaman Web saya</h1>
+    <div class="content top-line bottom-line">
+        <p>Saya saat ini menduduki bangku ke 2 pada jenjang SMK. Saya mengambil jurusan TKJ karena menurut saya TKJ cukup menyenangkan dan peluang kerja yang juga luas.</p>
+        <p>Nah sekarang kita masuk pada bagian gimana sih rasanya jadi murid SMK jurusan TKJ? Jawabannya adalah seru tapi susah, sebenarnya pelajaran TKJ pada jenjang SMK tidak sesusah yang dibayangkan orang orang asal anda mengerti bagaimana konsep cara merakit komputer, mengenal dan mempelajari komponen hardware apa saja yang ada di dalam komputer, merakit komputer serta fokus mempelajari jaringan dasar. tentu tidak akan  susah bagi kita.</p>
+        <p>Saya akan memberikan beberapa tips untuk dapat lebih mudah mempelajari TKJ pada jenjang SMK
+        
+        1.Tetap dengarkan apa yang guru jelaskan, karena bagi saya sendiri belajar TKJ jika hanya dari buku saja itu kurang dan saya sendiri kurang memahaminya.
+        
+        2.Catat apa yang guru jelaskan jika sekiranya kamu baru mengenali istilah, rumus, ataupun sesuatu yang baru.
+        
+        3.Bertanyalah pada guru jika tidak memahami materinya. Karena pada pelajaran TKJ masing masing saling berkaitan, sangat disayangkan jika kita tertinggal satu step materi tersebut.
+        
+        Nah mungkin itu saja tips dari saya selebihnya tetap semangat dalam menghadapi apapun dan jika ada tambahan saya nantinya saya akan tambahkan".</p>
+    </div>
+    <div class="container">
+        <div class="image-container">
+            <img src="Rasya.jpg" alt="Kittens" class="image">
+        </div>
+    </div>
+</body>
+</html>
